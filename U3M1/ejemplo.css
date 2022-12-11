@@ -1,0 +1,25 @@
+h1{
+    background-color: gray;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    color: rgb(136, 136, 172);
+    font-family: Arial;
+    font-size: 50px;
+}
+p{
+    color: rgb(38, 22, 53);
+}
+.destacados{
+    color: violet;
+    font-weight: bold;
+    font-style: italic;
+}
+#caja{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(115, 115, 233);
+    padding: 10px;
+    border: 10px solid rgb(177, 212, 241);
+}

@@ -6,14 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum</title>
+    <link rel="stylesheet" href="Curriculum.css">
 </head>
 
 <body>
     <!-- Mensaje oculto para html selección de texto, control + llave que cierra -->
-    <h1>Isabel Veron</h1>
+   <div id="fijo"><h1> Curriculum Isabel Veron </h1></div>
     <img src="messicopa.jpg" alt="messicopa">
-    <h2>21 Años</h2>
-    <h2>Buenos Aires, Ituzaingó</h2>
+    <h2>Sobre mi</h2>
+    <p>21 años</p>
+    <p>Buenos Aires, Ituzaingó</p>
+    <h3>Provincias que visite</h3>
+    <div class="contenedoruno">
+        <div class="item">1) SALTA</div>
+        <div class="item">2) CORDOBA</div>
+        <div class="item">3) BARILOCHE</div>
+        <div class="item">4) JUJUY</div>
+        <div class="item">5) MENDOZA</div>
+        <div class="item">6) MISIONES</div>
+    </div>
     <h3>Lista de series que más me gustan:</h3>
     <ul>
         <li>Grey´s Anatomy</li>
@@ -27,18 +38,26 @@
         <li>Garra</li>
         <li>¿Y dónde están las rubias?</li>
     </ol>
+    <H3>Breve resumen de las peliculas</H3>
+    <div id="contenedordos">
+        <div id="unoinseparables"> <span class="destacadospelis">INSEPARABLES:</span> 
+             Un empresario adinerado que ha quedado tetrapléjico a causa de un accidente, está buscando a un asistente terapéutico. Aunque se presentan numerosos candidatos altamente calificados para hacer el trabajo, él decide contratar al ayudante del jardinero, Tito, quién recientemente ha renunciado a ese trabajo. Tito no reúne en absoluto las condiciones requeridas para tal empleo, cosa que notan inmediatamente las personas más cercanas a Felipe: Verónica e Ivonne, su ama de llaves. Ellas tratan encarecidamente de convencerle para que no lo contrate, pero Felipe se mantiene firme en su decisión. Tito es la única persona, en mucho tiempo, que no lo trata con compasión. Pese a las dificultades, Tito cumple bien su cometido y sorprende constantemente a Felipe. Tito lo hace reír y le ayuda a conectar de nuevo con el sentido de la vida y a disfrutar de ella, algo que, con su condición, ya casi había olvidado.</div>
+        <div id="dosgarra"> <span class="destacadospelis">GARRA:</span>
+             Andler interpreta a un cazatalentos de baloncestistas en horas bajas que, estando en el extranjero, descubre un jugador con enorme talento pero con un pasado difícil. Sin la aprobación de su equipo, decide llevarse el fenómeno con él, dándoles a ambos una última oportunidad para demostrar que son dignos de la NBA.</div>
+        <div id="tresydondeestanlasrubias"> <span class="destacadospelis">¿Y DONDE ESTAN LAS RUBIAS?</span>
+        Después de una misión fallida, los agentes del FBI Kevin Copeland y Marcus Copeland caen en desgracia en la agencia. Su supervisor, Elliott Gordon, les da a los dos agentes la última oportunidad de permanecer en el FBI dándoles una importante misión: proteger a las multimillonarias herederas de la línea de cruceros Wilson, Brittany y Tiffany Wilson, que están llegando a la ciudad para un concurso de belleza en los Hamptons y están siendo víctimas de amenazas de secuestro. Tras de un accidente automovilístico que marca sus rostros, las herederas se niegan a salir del hotel, así que Kevin y Marcus se disfrazan para hacerse pasar por las hermanas y salvar sus trabajos. ¿… y dónde están las rubias? pondrá a los agentes manteniendo la farsa el tiempo suficiente para atraer al secuestrador, pero pronto descubrirán que engañar a todos los involucrados será el trabajo de sus vidas.</div>
+    </div>
     <h4>Sobre mi</h4>
-    <p>Mi nombre es Isabel, actualmente estoy aprendiendo a usar diferentes idiomas de programación.
+    <p class="destacados">Mi nombre es Isabel, actualmente estoy aprendiendo a usar diferentes idiomas de programación.
      Trabajo de administrativa y en mis tiempos libres juego al hockey en el Club Casa de Padua. 
      También me gusta ver partidos de hockey, más que nada de clubes que tienen un mayor nivel ya que se puede aprender mucho sobre ello. 
     Podes visitar el instagram de mi club <a href="https://www.instagram.com/clubcasadepadua/?hl=es&__coig_restricted=1" target="_blank">presionando aquí</a> </p>
    <p> No me gusta estar mucho tiempo sin entrenar o ir al club ya que no puedo ver tanto a mis amigas y reirnos.</p>
     <p>En los tiempos que no trabajo, estudio o hago hockey me gusta escuchar música y disfrutar de diferentes géneros. 
-    Les dejo un video con una de mis canciones y parte favorita.
+    <span class="destacados">dejo un video con una de mis canciones y parte favorita.</span>
     </p>
     <video src="videocancion.mp4" poster="imagenportada/portadavideo.jpg" controls></video>
-    <h3>Si queres contactarme completa el siguiente formulario</h3>
-    <form action="">
+    <h3 class="formulario">Si queres contactarme completa el siguiente formulario</h3>
         <p>
             <label for="Nombre"></label>
             <input type="Text" placeholder="Nombre">
@@ -55,5 +74,4 @@
         </p>
 
 </body>
-
 </html>
