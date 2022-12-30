@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREAuno</title>
+</head>
+<body>
+    <script>
+        const metros=parseInt(prompt('Ingrese una distancia para conocer el transporte adecuado:', ''))
+        if(metros>=0 && metros<=1000) {
+        document.write('El transporte adecuando es a pie');
+    } else if (metros>1000 && metros<=10000) {
+    document.write('El transporte adecuado es la bicicleta');
+    } else if (metros>10000 && metros<=30000){
+        document.write('El transporte adecuado es el colectivo');
+    } else if (metros>30000 && metros<=100000){
+        document.write('El transporte adecuado es el auto');
+    } else if (metros>100000){
+        document.write('El transporte adecuado es el avion');
+    }
+       </script>
+</body>
+</html>
